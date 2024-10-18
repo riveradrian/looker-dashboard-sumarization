@@ -1,0 +1,1 @@
+connection: "bigquery_explore_assistant_multi_turn"
