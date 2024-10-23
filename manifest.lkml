@@ -3,7 +3,7 @@ project_name: "adrian-dashboard"
 application: dashboard-summarization-project {
   label: "Adrian - Dashboard Summarization"
   file: "bundle.js"
-  # url: "http://localhost:8080/bundle.js", ws: "http://localhost:5001",
+  # url: "http://localhost:8080/bundle.js"
 
   mount_points: {
     dashboard_vis: yes
