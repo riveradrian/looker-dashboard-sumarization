@@ -14,8 +14,8 @@ application: dashboard-summarization-project {
     local_storage: yes
     use_form_submit: yes
     core_api_methods: ["run_inline_query","all_lookml_models","dashboard","dashboard_dashboard_elements", "me", "all_dashboards", "run_look"]
-    use_iframes: yes
-    use_downloads: yes
+    # use_iframes: yes
+    # use_downloads: yes
     external_api_urls: [
       "https://websocket-service-433084049911.us-central1.run.app",
       "https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
