@@ -2,8 +2,8 @@ project_name: "adrian-dashboard"
 
 application: dashboard-summarization-project {
   label: "Adrian - Dashboard Summarization"
-  file: "bundle.js"
-  # url: "http://localhost:8080/bundle.js"
+  # file: "bundle.js"
+  url: "http://localhost:8080/bundle.js"
 
   mount_points: {
     dashboard_vis: yes
@@ -14,11 +14,9 @@ application: dashboard-summarization-project {
     local_storage: yes
     use_form_submit: yes
     core_api_methods: ["run_inline_query","all_lookml_models","dashboard","dashboard_dashboard_elements", "me", "all_dashboards", "run_look"]
-    # use_iframes: yes
-    # use_downloads: yes
     external_api_urls: [
       "https://websocket-service-433084049911.us-central1.run.app",
-      "https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
+      "https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*", "https://jsonplaceholder.typicode.com/*"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth",
