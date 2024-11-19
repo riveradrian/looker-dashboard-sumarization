@@ -23,10 +23,10 @@ application: dashboard-summarization-project {
       "https://www.googleapis.com/auth/chat.spaces",
       "https://www.googleapis.com/auth/drive.metadata.readonly",
       "https://www.googleapis.com/auth/spreadsheets.readonly",
+      "https://www.googleapis.com/auth/chat.messages",
       "https://www.googleapis.com/auth/userinfo.profile",
       "https://www.googleapis.com/auth/chat.spaces.readonly",
       "https://www.googleapis.com/auth/chat.bot",
-      "https://www.googleapis.com/auth/chat.messages",
       "https://www.googleapis.com/auth/chat.messages.create",
       "https://slack.com/oauth/v2/authorize"
     ]
