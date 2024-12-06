@@ -15,7 +15,7 @@ application: dashboard-summarization-project {
     use_form_submit: yes
     core_api_methods: ["run_inline_query","all_lookml_models","dashboard","dashboard_dashboard_elements", "me", "all_dashboards", "run_look"]
     external_api_urls: [
-      "https://websocket-service-433084049911.us-central1.run.app",
+      "https://websocket-service-p7edbxne6a-uc.a.run.app",
       "https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*", "https://jsonplaceholder.typicode.com/*"
     ]
     oauth2_urls: [
