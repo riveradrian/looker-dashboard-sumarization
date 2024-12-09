@@ -36,7 +36,7 @@ application: dashboard-summarization-project {
 }
 
 application: query-insights-demo {
-  label: "Query Insights"
+  label: "Query Insights - ad"
   # url: "https://localhost:3000/bundle.js"
   file: "looker-query-insights.js"
   mount_points: {
