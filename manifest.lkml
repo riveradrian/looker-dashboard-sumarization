@@ -47,11 +47,17 @@ application: dashboard-summarization-new {
   }
   entitlements: {
     local_storage: yes
+    navigation: no
+    new_window: no
+    new_window_external_urls: []
     use_form_submit: yes
-    core_api_methods: ["run_inline_query","run_query","all_lookml_models","dashboard","dashboard_dashboard_elements"]
+    use_embeds: no
+    use_iframes: no
+    use_clipboard: no
+    core_api_methods: ["run_inline_query","run_query","all_lookml_models","dashboard","dashboard_dashboard_elements", "core_api_methods", "external_api_calls"]
     external_api_urls: [
       "https://dashboard-summary-service-p7edbxne6a-uc.a.run.app",
-      "http://localhost:5000","http://localhost:3000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
+      "http://localhost:5000","http://localhost:3000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*", "http://localhost:5002"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth",
