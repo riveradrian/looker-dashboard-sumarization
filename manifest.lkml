@@ -2,8 +2,8 @@ project_name: "adrian-dashboard"
 
 application: dashboard-summarization-project {
   label: "Adrian - Dashboard Summarization"
-  file: "bundle.js"
-  # url: "http://localhost:8080/bundle.js"
+  # file: "bundle.js"
+  url: "http://localhost:8080/bundle.js"
 
   mount_points: {
     dashboard_vis: yes
@@ -32,25 +32,5 @@ application: dashboard-summarization-project {
     ]
     scoped_user_attributes: []
     global_user_attributes: []
-  }
-}
-
-application: query-insights-demo {
-  label: "Query Insights"
-  # url: "https://localhost:3000/bundle.js"
-  file: "looker-query-insights.js"
-  mount_points: {
-    dashboard_vis: yes
-    dashboard_tile: yes
-    standalone: no
-  }
-  entitlements: {
-    core_api_methods: ["create_sql_query","run_sql_query","run_query","create_query"]
-    navigation: yes
-    use_embeds: yes
-    use_iframes: yes
-    new_window: yes
-    new_window_external_urls: ["https://developers.generativeai.google/*"]
-    local_storage: yes
   }
 }
