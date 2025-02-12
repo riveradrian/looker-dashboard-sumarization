@@ -14,10 +14,7 @@ application: dinamyc-hierarchy-filters-extension {
     local_storage: yes
     use_form_submit: yes
     core_api_methods: ["run_inline_query", "all_lookml_models", "dashboard", "dashboard_dashboard_elements", "me", "all_dashboards", "run_look", "update_dashboard", "run_tile"]
-    external_api_urls: [
-      "https://websocket-service-p7edbxne6a-uc.a.run.app",
-      "https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*", "https://jsonplaceholder.typicode.com/*"
-    ]
+    external_api_urls: ["https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*", "https://jsonplaceholder.typicode.com/*"]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth",
       "https://www.googleapis.com/auth/chat.spaces",
